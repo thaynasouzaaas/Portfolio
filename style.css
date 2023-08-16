@@ -4,6 +4,7 @@ header {
   background-size: cover;
   line-height: 2.3;
   border: none;
+  display: flex;
   }
  
 
@@ -12,6 +13,7 @@ header {
   margin-top: 20px;
   margin-bottom:-30px;
   margin-left: 80px;
+  display: flex;
   }
 
     
@@ -27,6 +29,7 @@ header {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  display: flex;
   }
 
 #sub-titulo {
@@ -41,6 +44,7 @@ header {
   color:#9000b4;
   border-right: 2px solid rgb(4, 4, 80);
   animation: typingAnimation 3s steps(40) infinite;
+  display: flex;
   }
 
 @keyframes typingAnimation {
@@ -64,6 +68,7 @@ header {
   margin-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  display: flex;
    
 }
 
@@ -90,6 +95,7 @@ header {
   top: 0;
   transform: translateY(0px);
   height: 700px;
+  display: flex;
 }
 
 
@@ -102,6 +108,7 @@ header {
   top: calc(30% - 50px);
   left: calc(70% - 0px);
   animation: astronaut 5s linear infinite;
+  display: flex;
 }
 
 .schoolbag {
@@ -113,6 +120,7 @@ header {
   left: calc(50% - 50px);
   background-color: #94b7ca;
   border-radius: 50px 50px 0 0 / 30px 30px 0 0;
+  display: flex;
 }
 
 .head {
@@ -124,6 +132,7 @@ header {
   border-radius: 50%;
   top: 34px;
   left: calc(50% - 47.5px);
+  display: flex;
 }
 
 .head:after {
@@ -135,6 +144,7 @@ header {
   left: calc(50% - 30px);
   background: -webkit-linear-gradient(top, #15aece 0%, #15aece 50%, #0391bf 50%, #0391bf 100%);
   border-radius: 15px;
+  display: flex;
 }
 
 .head:before {
@@ -147,7 +157,9 @@ header {
   background-color: #618095;
   border-radius: 5px;
   box-shadow: 92px 0px 0px #618095;
+  display: flex;
 }
+
 
 .body {
   width: 85px;
@@ -159,6 +171,7 @@ header {
   top: 105px;
   left: calc(50% - 41px);
   background: -webkit-linear-gradient(left, #e3e8eb 0%, #e3e8eb 50%, #fbfdfa 50%, #fbfdfa 100%);
+  display: flex;
 }
 
 .panel {
@@ -168,6 +181,7 @@ header {
   top: 20px;
   left: calc(50% - 30px);
   background-color: #b7cceb;
+  display: flex;
 }
 
 .panel:before {
@@ -179,6 +193,7 @@ header {
   left: 7px;
   background-color: #fbfdfa;
   box-shadow: 0px 9px 0px #fbfdfa, 0px 18px 0px #fbfdfa;
+  display: flex;
 }
 
 
@@ -192,6 +207,7 @@ header {
   background-color: #fbfdfa;
   border-radius: 50%;
   box-shadow: 0px 14px 0px 2px #fbfdfa;
+  display: flex;
 }
 
 .arm {
@@ -200,18 +216,21 @@ header {
   position: absolute;
   top: 121px;
   z-index: 2;
+  display: flex;
 }
 
 .arm-left {
   left: 30px;
   background-color: #e3e8eb;
   border-radius: 0 0 0 39px;
+  display: flex;
 }
 
 .arm-right {
   right: 30px;
   background-color: #fbfdfa;
   border-radius: 0 0 39px 0;
+  display: flex;
 }
 
 .arm-left:before,
@@ -221,18 +240,21 @@ header {
   height: 70px;
   position: absolute;
   top: -40px;
+  display: flex;
 }
 
 .arm-left:before {
   border-radius: 50px 50px 0px 120px / 50px 50px 0 110px;
   left: 0;
   background-color: #e3e8eb;
+  display: flex;
 }
 
 .arm-right:before {
   border-radius: 50px 50px 120px 0 / 50px 50px 110px 0;
   right: 0;
   background-color: #fbfdfa;
+  display: flex;
 }
 
 .arm-left:after,
@@ -242,16 +264,19 @@ header {
   height: 10px;
   position: absolute;
   top: -24px;
+  display: flex;
 }
 
 .arm-left:after {
   background-color: #6e91a4;
   left: 0;
+  display: flex;
 }
 
 .arm-right:after {
   right: 0;
   background-color: #b6d2e0;
+  display: flex;
 }
 
 .leg {
@@ -260,18 +285,21 @@ header {
   position: absolute;
   z-index: 2;
   bottom: 70px;
+  display: flex;
 }
 
 .leg-left {
   left: 76px;
   background-color: #e3e8eb;
   transform: rotate(20deg);
+  display: flex;
 }
 
 .leg-right {
   right: 73px;
   background-color: #fbfdfa;
   transform: rotate(-20deg);
+  display: flex;
 }
 
 .leg-left:before,
@@ -281,6 +309,7 @@ header {
   height: 25px;
   position: absolute;
   bottom: -26px;
+  display: flex;
 }
 
 .leg-left:before {
@@ -288,6 +317,7 @@ header {
   background-color: #e3e8eb;
   border-radius: 30px 0 0 0;
   border-bottom: 10px solid #6d96ac;
+  display: flex;
 }
 
 .leg-right:before {
@@ -295,6 +325,7 @@ header {
   background-color: #fbfdfa;
   border-radius: 0 30px 0 0;
   border-bottom: 10px solid #b0cfe4;
+  display: flex;
 }
 
   .spinner {
@@ -307,6 +338,7 @@ header {
     margin-top:-450px;
     margin-bottom: 500px;
      margin-left: 500px;
+     display: flex;
 
     }
   
@@ -316,34 +348,41 @@ header {
     position: absolute;
     width: 100%;
     border: 3.5px solid var(--clr);
+    display: flex;
   }
   
   .spinner div:nth-of-type(1) {
     transform: translateZ(-35.2px) rotateY(180deg);
+    display: flex;
   }
   
   .spinner div:nth-of-type(2) {
     transform: rotateY(-270deg) translateX(50%);
     transform-origin: top right;
+    display: flex;
   }
   
   .spinner div:nth-of-type(3) {
     transform: rotateY(270deg) translateX(-50%);
     transform-origin: center left;
+    display: flex;
   }
   
   .spinner div:nth-of-type(4) {
     transform: rotateX(90deg) translateY(-50%);
     transform-origin: top center;
+    display: flex;
   }
   
   .spinner div:nth-of-type(5) {
     transform: rotateX(-90deg) translateY(50%);
     transform-origin: bottom center;
+    display: flex;
   }
   
   .spinner div:nth-of-type(6) {
     transform: translateZ(35.2px);
+    display: flex;
   }
   
   @keyframes spinner {
@@ -365,6 +404,7 @@ header {
   align-items: left;
   flex-direction: column;
   background-size: cover;
+  display: flex;
 }
 
 body {
@@ -374,6 +414,7 @@ body {
   line-height: 1.6;
   background-size: cover;
   padding: 0px;
+  display: flex;
 }
 
   #quem_sou_eu {
@@ -387,6 +428,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  display: flex;
   }
 
  #sobre {
@@ -397,6 +439,7 @@ body {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: white;
+  display: flex;
 
 }
 
@@ -409,6 +452,7 @@ body {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 40px;
   color: rgb(10, 186, 255); 
+  display: flex;
 }
 
 #texto_extra {
@@ -419,6 +463,7 @@ body {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: white; 
+  display: flex;
 }
 
 #fundo_sobre {
@@ -430,6 +475,7 @@ body {
   margin-top: -180px;
   background-size: cover; 
   background-position: center;
+  display: flex;
 } 
 
 #competencias {
@@ -438,12 +484,14 @@ font-size: 40px;
 text-align: center;
 margin-top: 50px;
 margin-bottom: 500px;
+display: flex;
 
 
 }
 
 #lista_competencias {
   margin-top: -500px;
+  display: flex;
 
 }
 
@@ -459,6 +507,7 @@ margin-bottom: 500px;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  display: flex;
 }
 
 .galeria {
@@ -473,16 +522,19 @@ margin-bottom: 500px;
   width: 250px;
   margin: 10px;
   border-radius: 10%;
+  display: flex;
 }
 
 .imagem_sombra {
   box-shadow: 6px 6px 4px #00e1ff;
+  display: flex;
 }
 
 
 
 .teclado_instrumental {
   box-shadow: 10px 10 px 10 px #939393;
+  display: flex;
 }
 
 #vamos_conversar {
@@ -491,7 +543,7 @@ margin-bottom: 500px;
   font-family:Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 1000;
-  display: inline-block; 
+  display: flex;
   background: linear-gradient(45deg, #d736ff, #ff00ff, #00c3ff); 
   background-clip: text;
   -webkit-background-clip: text;
@@ -504,11 +556,13 @@ text-align: left;
 margin-right: 800px;
 margin-top: -40px;
 margin-bottom: 50px;
+display: flex;
 }
 
 #icones {
   margin-top: -40px;
   margin-bottom: -80px;
+  display: flex;
 }
 .dino {
   width: 200px;
@@ -519,7 +573,8 @@ margin-bottom: 50px;
   margin-left: 1150px;
   margin-top:-70px;
   margin-bottom: -60px;
-  transform: scaleX(-1) ; 
+  transform: scaleX(-1) ;
+  display: flex; 
 }
 
 nav {
@@ -529,6 +584,7 @@ nav {
   text-align: right;
   padding: 10px 20px;
   font-size: 18px;
+  display: flex;
   }
 
 nav a {
@@ -536,6 +592,7 @@ nav a {
   color: #ffffff;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  display: flex;
   }
 
 nav a:hover { 
@@ -546,10 +603,12 @@ nav a:hover {
   cursor: pointer;
   transition: box-shadow 0.3s ease;
   box-shadow: 0 0 10px 2px #ff00ea; 
+  display: flex;
   }
   
 section {
   padding: 2rem;
+  display: flex;
   }
 
 footer {
@@ -558,6 +617,7 @@ footer {
   padding: 0.1rem;
   text-align: center;
   box-shadow: 0 0 13px 4px #00e1ff; 
+  display: flex;
   }
  
   
