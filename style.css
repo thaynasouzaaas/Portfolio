@@ -486,19 +486,34 @@ margin-bottom: 500px;
 }
 
 #projetos {
-  margin-top: -30px;
-  margin-left: 550px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 40px;
-  font-weight: 1000;
-  text-align: center;
-  display: inline-block; 
-  background: linear-gradient(45deg, #d736ff, #ff00ff, #00c3ff); 
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  
+    margin-top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+    text-align: center;
+    display: flex; /* Alterado para flex para permitir que os itens fiquem lado a lado */
 }
+
+/* Adicionei uma classe para os itens dos projetos */
+.projeto-item {
+    flex: 1; /* Faz com que os itens tenham o mesmo tamanho */
+    margin-left: 10px; /* Espaçamento entre os itens */
+}
+
+/* Se desejar que os itens ocupem toda a largura disponível do contêiner, pode remover a margem do primeiro item */
+.projeto-item:first-child {
+    margin-left: 0;
+}
+
+/* Estilos restantes mantidos */
+#projetos {
+    margin-left: 50px; /* Ajustado o margin-left */
+    background: linear-gradient(45deg, #d736ff, #ff00ff, #00c3ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 
 .galeria {
   
